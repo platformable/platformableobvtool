@@ -49,7 +49,7 @@ export default function Table() {
                 <p>Drawing on the work of API industry leader Maria Garcia Luengo, we have identified a model to measure the value of open APIs for bank themselves.</p>
                 <p>Use our open banking value tool to select a location and the type of bank. Choose which type of value you want to review. You will see a collection of data points where the benefits of banking APIs has been documented.</p>
                 <p><span>Roadmap:</span> We will release tools that share evidence of the value of open banking APIs for fintech and consumers in 2021.</p>
-                <a href="" className="learnMoreBtn">Learn More</a>
+                <a href="https://platformable.com/blog/tools-and-models-to-measure-open-banking-value/" className="learnMoreBtn">Learn More</a>
             </div>
             <div className="introImg">
             <img className={classes.image} src={process.env.PUBLIC_URL + "/images/table.png"} alt="table" />
