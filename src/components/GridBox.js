@@ -119,7 +119,7 @@ export default function GridBox({
     return (
       <>
       <Grid item sm={12} md={6} className="" style={{marginBottom:'20'+'px', paddingRight:'10'+'px'}}>
-        <div class="card">
+        <div class="card" key={bank.id}>
           <div class="card-top">
             <div class="card-logo">
             <img className="" alt="logo" src={process.env.PUBLIC_URL + `/images/${bank.logo}.png`} />

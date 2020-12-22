@@ -45,17 +45,11 @@ export default function Table() {
             <div className="infoIntro">
             <div className="introText">
             <h1>Open Banking Value Tool:</h1>
-                <h2>What business value do APIs generate? </h2>
-                <p>When regulators and industry decide to move to an open banking approach, they do so because they believe that there are substantial benefits for fintech market entrants, consumers, businesses, the wider economy, and for banks themselves.</p>
-                <p>But as a new technological and business approach, we are still at the early days of being able to quantify the benefits that open banking can generate.</p>
-                <p>Drawing on the work of API industry leader Maria Garcia Luengo, Platformable has developed an open banking values model that identifies how banks are generating value from their API strategies. </p>
-                <p>We research unstructured data (industry interviews, case studies, reports, presentations, and blog posts) that describe and quantify how open banking APIs have created real value for the banks making them available. Our Open Banking Value Tool helps you identify the example use cases that will help you advocate for an open banking platform approach.</p>
-                <div className={classes.footerBox}>
-                    <div className={classes.side}></div>
-                    <div className={classes.footer}>
-                        <p>To learn more about our model or to provide feedback, check out our blog post: Introducing the Open Banking Value Tool.</p>
-                    </div>
-                </div>
+                <h2>What evidence do we have that open banking is creating benefits for the banks that open APIs? </h2>
+                <p>Drawing on the work of API industry leader Maria Garcia Luengo, we have identified a model to measure the value of open APIs for bank themselves.</p>
+                <p>Use our open banking value tool to select a location and the type of bank. Choose which type of value you want to review. You will see a collection of data points where the benefits of banking APIs has been documented.</p>
+                <p><span>Roadmap:</span> We will release tools that share evidence of the value of open banking APIs for fintech and consumers in 2021.</p>
+                <a href="" className="learnMoreBtn">Learn More</a>
             </div>
             <div className="introImg">
             <img className={classes.image} src={process.env.PUBLIC_URL + "/images/table.png"} alt="table" />
