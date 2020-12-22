@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+img {
+  max-width:100%;
+}
+a {
+  text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  padding:0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 2.3rem;
+}
+
+h5 {
+  font-weight: 1000;
+  font-size: 16px;
+  padding: 7px
+}
+
+p {
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.sub {
+  font-size: 13px;
+  font-weight: 1000;
+}
+
+header {
+  background-color:#fb5012 !important; 
+  }
+  
+  .MuiToolbar-root {
+  justify-content:space-between;
+  }
+header a{
+  color:white !important;
+  text-transform: capitalize;
+}
+
+.centeredTable h1 {
+  font-weight: 800;
+  font-size:36px;
+}
+.centeredTable h2 {
+  margin: 10px 0 20px 0;
+  font-size:24px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size:36px;
+  font-weight:800 !important;
+  margin-bottom:10px;
+  }
+
+
+h2 {
+  font-size:28px;
+  font-weight:700 !important;
+  margin-bottom:10px;
+  }
+
+.selectBy {
+  padding:30px 0;
+}
+
+.pagination {
+  margin:30px 0;
+  /* background-color: red; */
+}
+
+.footer {
+  background-color:#1b014c;
+  padding:20px 0;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  width:100%;
+}
+
+.footer a {
+  color:#ffd23f;
+}
+
+.infoIntro {
+  margin:30px 0;
+  display:grid;
+  gap:14px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.table {
+  /* background-color:#e5ddf6; */
+  background-color:#e5ddf6;
+  padding:30px 0
+}
+.introImg {
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.introText h1 {
+  color:#1b014c;
+}
+
+.introText h2 {
+  color:#fb5012;
+}
+
+.introText h2:before {
+  content:'';
+  border-left:8px solid #1b014c;
+  margin-right:10px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+.MuiTypography-root h5 {
+  font-size:30px;
+  font-weight:800;
+  line-height: 30px;
+
+  display:inline-block;
+  padding:20px;
+}
+
+.selectType {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:10px;
+}
+
+select {
+  padding:10px;
+  border:none;
+  border-radius:7px;
+  width:100%;
+  background-color:#f4f4f4;
+  margin-bottom:20px;
+}
+
+
+img {
+  max-width:100%;
+}
+
+.card {
+  width:100%;
+  min-height: 300px;
+  height:auto;
+  background-color:white;
+  border-radius:10px;
+  -webkit-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.15);
+color:#1b014c;
+
+}
+
+.card-top {
+  padding:20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:10px;
+  justify-content:space-between;
+}
+
+.card-type {
+  text-align:right;
+}
+
+.card-logo img{
+  margin:0;
+  max-width:80px;
+}
+
+.card-logo h3{
+  margin:10px 0 10px 0;
+  font-weight: 800;
+  font-size:20px;
+  color:#1b014c;
+}
+
+.card-logo small {
+  font-size: 12px;
+}
+
+.card-type  span{
+   background-color:#1b014c;
+  display:inline-block;
+  padding:10px;
+  border-radius:10px;
+  color:white;
+  font-size:12px;
+}
+
+.card-content {
+  padding:10px;
+  font-size:12px
+}
+
+.card-content p{
+
+  font-size:13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .infoIntro {
+    grid-template-columns: 1fr;
+  }
+  .selectType {
+    grid-template-columns:1fr;
+  
+  }
+}
